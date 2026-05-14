@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df01b818476575e4ca39163c950fbbca, type: 3}
+  m_Name: Level3Data
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceMining.LevelData
+  gridWidth: 15
+  gridHeight: 15
+  slotCount: 3
+  visibleQueueRows: 3
+  typeLayout: '.....11111.....
+
+    ...111222111...
+
+    ..11222222211..
+
+    ..12222222221..
+
+    .1122222222211.
+
+    .1223322233221.
+
+    .1223322233221.
+
+    .1222222222221.
+
+    .1222222222221.
+
+    .1224222224221.
+
+    .1122444442211.
+
+    ..12222222221..
+
+    ..11222222211..
+
+    ...111222111...
+
+    .....11111.....'
+  availabilityLayout: '.....11111.....
+
+    ...111000111...
+
+    ..11000000011..
+
+    ..10000000001..
+
+    .1100000000011.
+
+    .1000000000001.
+
+    .1000000000001.
+
+    .1000000000001.
+
+    .1000000000001.
+
+    .1000000000001.
+
+    .1100000000011.
+
+    ..10000000001..
+
+    ..11000000011..
+
+    ...111000111...
+
+    .....11111.....'
+  shipQueueLayout: '2:14,2:3,2:10,3:8,1:17
+
+    2:14,2:7,2:7,4:7,1:17
+
+    2:14,2:10,2:4,2:13,1:18'
+  isTutorialLevel: 0
+  cellSize: 0.15
+  colorPalette: []
+  bevelWidth: 0.15
+  bevelStrength: 0.45
+  gridPositionOffset: {x: 0, y: -0.75}
+  enableChestReward: 1
+  forceBuffOnly: 0
+  forceNerfOnly: 0
+  chestSpawnYMax: 4
